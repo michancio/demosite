@@ -19,19 +19,21 @@ import Hero from "components/Hero/Hero";
 import React from "react";
 import NavBar from "components/Navbars/DemoNavbar";
 import Footer from "components/Footers/SimpleFooter";
+import ThreeCards from "components/ThreeCards/ThreeCards";
 
 
-class Index extends React.Component {
+function Index() {
+  function scrollTo(to) {
 
-  render() {
+  }
     return (
       <>
       <NavBar />
       <Hero />
+      <ThreeCards />
       <Footer />
       </>
     );
-  }
 }
 
 export default Index;
